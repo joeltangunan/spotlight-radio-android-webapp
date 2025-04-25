@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Spotlight Radio FM – Android Web App</title>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="icon" type="image/png" href="spotlight-logo-512px.png" />
+  <meta name="theme-color" content="#d62828" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f7f7f7;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    .container {
+      padding: 40px 20px;
+    }
+
+    img.logo {
+      width: 150px;
+      margin: 20px auto;
+      display: block;
+    }
+
+    h1 {
+      font-size: 24px;
+      margin-bottom: 10px;
+      color: #222;
+    }
+
+    p {
+      font-size: 16px;
+      color: #444;
+    }
+
+    audio {
+      margin-top: 20px;
+      width: 80%;
+      max-width: 400px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="spotlight-logo-512px.png" alt="Spotlight Radio FM Logo" class="logo" />
+    <h1>Spotlight Radio FM – Android Web App</h1>
+    <p>Streaming music 24/7. Enjoy the vibe, anytime, anywhere!</p>
+    <audio controls autoplay>
+      <source src="https://cast2.my-control-panel.com/proxy/dennis/stream" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+</body>
+</html>
